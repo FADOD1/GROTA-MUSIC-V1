@@ -1,0 +1,18 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url('BACKGROUND.jpg'); /* Substitua com o caminho da sua imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Isso mantém o background fixo enquanto você rola */
+  color: #008000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+}
