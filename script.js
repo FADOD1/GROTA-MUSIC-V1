@@ -8,7 +8,7 @@ function uploadAudio() {
 
     formData.append('audioFile', file);
 
-    fetch('upload.php', {
+    fetch('index.php', {
       method: 'POST',
       body: formData
     })
